@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+ 
+.admin-input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 0.5rem;
+  background: rgb(24 24 27);
+  padding: 0.75rem 0.875rem;
+  color: white;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.admin-input::placeholder {
+  color: rgb(75 75 85);
+}
+
+.admin-input:focus {
+  border-color: rgb(239 68 68);
+}
+
+select.admin-input {
+  cursor: pointer;
+}
